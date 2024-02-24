@@ -1,5 +1,5 @@
-import java.util.concurrent.;
-import java.util.concurrent.atomic.;
+import java.util.concurrent.*;
+import java.util.concurrent.atomic.*;
 
 class ExhibitVisitor extends Thread {
     static AtomicInteger totalVisits = new AtomicInteger(0);
