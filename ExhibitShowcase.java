@@ -28,7 +28,7 @@ class ExhibitVisitor extends Thread {
     }
 }
 
-public class ExhibitShowcase {
+class ExhibitShowcase {
     public static void main(String[] args) throws InterruptedException {
         int numberOfVisitors = 10;
         ExhibitVisitor[] visitors = new ExhibitVisitor[numberOfVisitors];
